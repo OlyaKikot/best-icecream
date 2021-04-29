@@ -30,14 +30,12 @@
   @media screen and (min-width: $tablet) {
     width: 8.4vw;
     height: 3.5vw;
-
     font-size: 1vw;
   }
 
   @media screen and (min-width: $desktop) {
     width: 102px;
     height: 40px;
-
     font-size: 14px;
     line-height: 1.28;
   }
@@ -46,7 +44,6 @@
 .simple-btn--light {
   width: 83px;
   height: 24px;
-
   color: $text-color-title;
   background-color: $main-white-color;
 

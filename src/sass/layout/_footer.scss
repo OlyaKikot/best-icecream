@@ -5,9 +5,6 @@
   padding-bottom: 25px;
   background-color: $background-accent-light;
 
-  // &__noth-copy {
-  //   padding-bottom: 44px;
-  // }
 }
 .footer__title {
   text-transform: uppercase;
@@ -99,7 +96,7 @@
   padding-top: 22px;
 
 }
-// }
+
 
 //======================TAB===================
 @media screen and (min-width: $tablet) {
@@ -201,9 +198,7 @@
     padding-bottom: 9px;
     background-color: $background-accent-light;
   }
-  //   .footer__noth-copy {
-  //     margin-bottom: 98px;
-  //   }
+
   .footer__title {
     width: auto;
     font-size: 30px;
@@ -216,11 +211,6 @@
     font-size: 58px;
     letter-spacing: 0.06em;
   }
-  // .social-list {
-  //   margin-bottom: 50px;
-  // }
-  //   .social-list__item {
-  //   }
 
   .social-list__icon {
     width: 20px;

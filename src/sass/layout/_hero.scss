@@ -29,10 +29,8 @@
 
 .hero {
   margin: 0 auto;
-  // height: 502px;
   height: 100vh;
   min-width: 320px;
-  // max-width: 1280px;
   background-color: $background-accent;
   overflow: hidden;
   transition: all 0.3s ease 0s;
@@ -368,7 +366,6 @@
     width: 188px;
     height: 191px;
     left: -28px;
-    // bottom: 45px;
   }
 }
 

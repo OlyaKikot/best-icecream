@@ -41,35 +41,24 @@
   justify-content: center;
   margin: 30px auto;
   max-width: 926px;
-  // width: 280px;
-  // padding-left: 56px;
-  // padding-right: 56px;
-  // padding-top: 44px;
-  // padding-bottom: 26px;
   padding: 43px 66px 26px 57px;
   background-color: $background-reviews-light;
 
   @media screen and (min-width: $tablet) {
-    // width: 620px;
     margin-top: 20px;
     margin-bottom: 24px;
     padding-top: 47px;
     padding-bottom: 34px;
-    // padding-left: 80px;
-    // padding-right: 80px;
+
   }
 
   @media screen and (min-width: $desktop) {
-    // width: 926px;
     margin-top: 15px;
     margin-bottom: 15px;
-    // padding-left: 88px;
-    // padding-right: 88px;
     padding-bottom: 40px;
   }
 }
 .reviews__text {
-  // width: 158px;
   font-family: $main-font;
   font-style: normal;
   font-weight: 500;
