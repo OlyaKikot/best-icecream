@@ -51,7 +51,7 @@
     animation-direction: normal;
     animation-fill-mode: none;
     animation-play-state: running;
-    // animation: changebgimage 3s linear 0s infinite normal none running snow;
+  
 
     @keyframes cangebgimage{
       0%{
@@ -182,7 +182,7 @@
     &-icon {
       width: 6px;
       height: 6px;
-      fill: $text-color-title;
+      color: $text-color-title;
       border-radius: 50%;
       transition: all 0.2s ease 0s;
 

@@ -130,13 +130,13 @@
 
   &:hover,
   .close-btn__icon &:focus .close-btn__icon {
-    fill: $background-hover;
+    color: $background-hover;
   }
 
   &__icon {
     width: 14px;
     height: 14px;
-    fill: $text-color-title;
+    color: $text-color-title;
   }
 }
 
