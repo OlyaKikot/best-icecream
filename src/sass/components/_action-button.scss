@@ -1,24 +1,6 @@
-.action-btn--crimson,
-.action-btn--light {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  height: 44px;
-  padding-left: 36px;
-  padding-right: 36px;
-  border-style: none;
-  border-radius: 22px;
-  font-family: $main-font;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.3;
-  text-align: center;
-  transition: $transition-hover-focus;
-  cursor: pointer;
-}
 
 .action-btn--crimson {
+  @extend %button;
   color: $main-white-color;
   background-color: $text-color-title;
 
@@ -29,6 +11,7 @@
 }
 
 .action-btn--light {
+  @extend %button;
   color: $text-color-title;
   background-color: $main-white-color;
 

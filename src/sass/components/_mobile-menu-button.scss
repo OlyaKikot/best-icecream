@@ -1,20 +1,16 @@
 .close-menu-btn {
   border-style: none;
   cursor: pointer;
-
   color: $main-white-color;
   background-color: transparent;
-
-  &__icon {
-    width: 14px;
-    height: 14px;
-    
-  }
-
   &:hover,
   &:focus {
     color: $background-hover;
   }
+}
+.close-menu-btn__icon {
+  width: 14px;
+  height: 14px;
 }
 
 .button-container__burger-menu-btn {
@@ -23,18 +19,15 @@
   background: transparent;
   border-style: none;
   cursor: pointer;
-
   color: $background-hover;
   background-color: transparent;
-
-  &__icon {
-    width: 20px;
-    height: 12px;
-   
-  }
-
   &:hover,
   &:focus {
     color: $main-white-color;
   }
+}
+
+.button-container__burger-menu-btn__icon {
+  width: 20px;
+  height: 12px;
 }

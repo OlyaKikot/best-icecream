@@ -4,12 +4,29 @@
     <div class="about__container">
       <picture>
         <source
+        srcset="
+        ./images/about/desktop/x1/cow-desktop.webp    1x,
+        ./images/about/desktop/x2/cow-desktop@2x.webp  2x
+        "
+        media="(min-width: 1200px)"
+        type="image/webp"
+      />
+        <source
           srcset="
             ./images/about/desktop/x1/cow-desktop.png    1x,
             ./images/about/desktop/x2/cow-desktop@2x.png 2x
           "
           media="(min-width: 1280px)"
         />
+
+        <source
+        srcset="
+          ./images/about/tablet/x1/cow-tablet.webp    1x,
+          ./images/about/tablet/x2/cow-tablet@2x.webp 2x
+        "
+        media="(min-width: 768px)"
+        type="image/webp"
+      />
         <source
           srcset="
             ./images/about/tablet/x1/cow-tablet.png    1x,
@@ -17,6 +34,12 @@
           "
           media="(min-width: 768px)"
         />
+        <source
+        srcset="./images/about/tel/x1/cow-tel.webp  1x, ./images/about/tel/x2/cow-tel@2x.webp  2x"
+        media="(min-width: 320px)"
+        type="image/webp"
+      />
+
         <source
           srcset="./images/about/tel/x1/cow-tel.png 1x, ./images/about/tel/x2/cow-tel@2x.png 2x"
           media="(min-width: 320px)"
